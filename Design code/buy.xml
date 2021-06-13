@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu_2"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/search_w"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="330dp"
+            android:src="@drawable/img_bg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchased! Happy Reading"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="30dp"
+            android:text="Start Reading"
+            android:textStyle="bold"
+            android:textColor="#2196F3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
